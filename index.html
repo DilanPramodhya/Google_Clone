@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="https://mail.google.com/mail/" target="_top">Gmail</a>
+          </li>
+          <li>
+            <a href="https://www.google.com/imghp?hl=en&ogbl" target="_top"
+              >Images</a
+            >
+          </li>
+          <li>
+            <a href="https://about.google/products/" target="_top">
+              <img
+                class="icon"
+                src="https://www.svgrepo.com/show/41236/dots-menu.svg"
+                alt="nine_dots"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAmgQ&hl=en&ifkv=AXH0vVsrRoh16nwqOh-tQR-NOoK7sae6s1-OZWASDVqOYPs3QW72FNWoOTKkyDbDXyHhji7u_gd4RQ&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-284140336%3A1743099486699938"
+              class="sign-in-button"
+            >
+              Sign In
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="google_logo">
+          <img
+            src="https://cdn.dribbble.com/userupload/22464658/file/original-7aa295f8086e8823c708e2b1fcfb68e1.gif"
+            alt="google_logo"
+          />
+        </section>
+
+        <section class="google_search">
+          <div class="search_field">
+            <div class="search_field_icon">
+              <img
+                class="icon"
+                src="data:image/png;base64,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"
+                alt="goodle_search_icon"
+              />
+            </div>
+            <div class="search_field-input">
+              <input type="text" autofocus name="query" />
+              <span class="clear">&times;</span>
+            </div>
+            <div class="search_field_icon">
+              <img
+                class="icon"
+                src="https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-25-512.png"
+                alt="google_mic_icon"
+                style="height: 30px; width: 30px;"
+              />
+            </div>
+            <div class="search_field_icon">
+              <img
+                class="icon"
+                src="data:image/png;base64,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"
+                alt="google_search_by_icon"
+              />
+            </div>
+          </div>
+
+          <section class="google_search_btns">
+            <button id="search_btn" class="search">Google Search</button>
+            <a href="https://doodles.google/" class="doodles">
+              I'm Feeling Lucky
+            </a>
+          </section>
+        </section>
+
+        <section class="google_homepage_lans">
+          <dd>Google offered in: <a href="$"> සිංහල</a></dd>
+        </section>
+      </main>
+
+      <footer>
+        <div>
+          <a
+            href="https://about.google/?utm_source=google-LK&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            class="footer_link"
+            >About</a
+          >
+          <a
+            href="https://ads.google.com/intl/en/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            class="footer_link"
+            >Advertising</a
+          >
+          <a
+            href="https://www.google.com/business/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1"
+            class="footer_link"
+            >Business</a
+          >
+          <a
+            href="https://www.google.com/search/howsearchworks/?fg=1"
+            class="footer_link"
+            >How Search works</a
+          >
+        </div>
+        <div>
+          <a
+            href="https://policies.google.com/privacy?hl=en-LK&fg=1"
+            class="footer_link"
+            >Privacy</a
+          >
+          <a
+            href="https://policies.google.com/terms?hl=en-LK&fg=1"
+            class="footer_link"
+            >Terms</a
+          >
+          <span class="footer_links">Settings</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
